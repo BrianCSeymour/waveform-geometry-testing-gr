@@ -1,0 +1,32 @@
+name: waveform-geometry-tgr
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib
+  - multiprocess
+  - tqdm
+  - astropy
+  - ipykernel
+  - jax
+  - jaxlib
+  - qnm
+  - spherical
+  - quaternionic
+  - gwpopulation
+  - pathos
+  - lal
+  - ipywidgets
+  - pip:
+    - jimGW
+    - pycbc
+    # - lal
+
+# conda env create -f waveform-geometry-tgr.yml
+# conda env update --file waveform-geometry-tgr.yml --prune
+# conda remove --name waveform-geometry-tgr --all
+# python -m ipykernel install --user --name waveform-geometry-tgr --display-name "waveform-geometry-tgr"
